@@ -22,27 +22,28 @@ body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 1%;
-    grid-gap: 2px;
+    grid-gap: 20px;
     background-color: #f5f8fa;
 }
 .menu{
-    grid-column: 1/3;
+    grid-column: 1/4;
     /* background-color: red; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(4,150px);
-    grid-gap: 10px;
+    grid-gap: 25px;
     padding: 0.3em 0;
 }
 .card{
     background-color: white;
     text-align: center;
-    padding: 1%;
+    padding: 2%;
     box-shadow: 0 3px 6px #8888;
     padding-top: 20%;
 }
 .card:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .card-box{
     text-decoration: none;
@@ -53,9 +54,10 @@ body{
 }
 h3{
     font-size: 1rem;
+    cursor: pointer;
 }
 .content{
-    grid-column: 3/-1;
+    grid-column: 4/-1;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
@@ -64,4 +66,12 @@ h3{
     display: block;
     margin: auto;
    
+}
+.mid-img{
+    background: #3f4079 url(../images/hero_home_bg_1.svg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
