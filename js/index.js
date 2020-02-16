@@ -2,8 +2,15 @@
 //     alert("hello")
 //     console.log(this.innerHtml);
 // })
-$(document).ready(function(){
-    $("p").click(function(){
-        $(".content").addClass("trans");
-    })
+$("#health").on({
+    'click': function(){
+        $('#content-img').attr('src','images/about_1.jpg');
+        $('.content-text').html("Yolo")
+    }
+})
+$("#blood").on({
+    'click': function(){
+        $('#content-img').attr('src','images/bg-101.png');
+        $('.content-text').html("Hello World")
+    }
 })
