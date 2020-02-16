@@ -81,7 +81,7 @@ h3{
 
 #middle{
     margin: 5% 10%;
-    
+    background-color: #f5f8fa;
 }
 
 .check{
@@ -93,7 +93,7 @@ h3{
     padding-top: 0%;
     width: 100px;
     height: 50px;
-    padding: 40px 60px;
+    padding: 60px 80px;
     
 }
  .im{
@@ -105,3 +105,15 @@ h3{
     margin: 40px 0px;
 }
 
+.m-middle{
+    margin-top: 40px;
+}
+
+.m-middle .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mmdl{
+    width: 20%;
+}
