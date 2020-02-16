@@ -51,12 +51,12 @@ body{
     display: block;
     font-size: 0.8rem;
 }
-a.h3{
-    margin-top: 20px;
+h3{
+    font-size: 1rem;
 }
 .content{
     grid-column: 3/-1;
 }
-.card{
-
+.trans{
+    background-image: url("images/about_1.jpg");
 }

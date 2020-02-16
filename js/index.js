@@ -2,8 +2,8 @@
 //     alert("hello")
 //     console.log(this.innerHtml);
 // })
-
-$("#health").click(function(){
-    alert("Hello world")
-    console.log("Hello World")
+$(document).ready(function(){
+    $("p").click(function(){
+        $(".content").classList.add("trans");
+    })
 })
