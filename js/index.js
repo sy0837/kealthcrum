@@ -4,6 +4,6 @@
 // })
 $(document).ready(function(){
     $("p").click(function(){
-        $(".content").classList.add("trans");
+        $(".content").addClass("trans");
     })
 })
