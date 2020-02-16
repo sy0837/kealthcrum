@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #f5f8fa;
 }
 .navbar{
     font-size: 1.2rem;
@@ -20,10 +21,10 @@ body{
 }
 .container1{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(13, 1fr);
     padding: 1%;
     grid-gap: 20px;
-    background-color: #f5f8fa;
+    
 }
 .menu{
     grid-column: 1/4;
@@ -52,6 +53,10 @@ body{
     display: block;
     font-size: 0.8rem;
 }
+.clicked{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
 h3{
     font-size: 1rem;
     cursor: pointer;
@@ -74,4 +79,64 @@ h3{
     -o-background-size: cover;
     background-size: cover;
 
+}
+.g{
+    margin-top: 6em;
+    text-align: center;
+    background-color: white;
+    padding: 20% 0 10% 0;
+    grid-gap: 10px;
+    box-shadow: 0 3px 6px black;
+    color: #e74e84;
+    border: solid;
+    border-color: white;
+    position: relative;
+}
+.gt{
+    grid-gap: 50px;
+    padding-bottom: 8%;
+    position: relative;
+}
+.g:hover{
+    border: solid;
+    border-color: #e74e84;
+    box-shadow: 0 3px 6px  #e74e84;
+}
+.grid-item1{
+    grid-column: 3/6;
+    position: relative;
+}
+.grid-item2{
+    grid-column: 6/9;
+}
+.grid-item3{
+    grid-column: 9/12;
+}
+div.g >h3{
+    font-size: 1.5rem;
+    
+   
+    margin: 2em 60px;
+    padding: 4px;
+}
+div.g >h3:hover{
+    
+}
+.s{
+    position: absolute;
+    top: 50%;
+    right: -68px;
+    margin: -42px 0 0 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* -webkit-border-radius: 50%; */
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    /* border-radius: 50%; */
+    border: 2px solid #ededed;
+    background: white url(../images/arrow-gray-1.svg) no-repeat center center;
+    box-shadow: 0 3px 3px #000;
+    display: block;
+    z-index: 9;
 }
